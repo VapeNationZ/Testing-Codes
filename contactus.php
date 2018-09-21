@@ -10,7 +10,7 @@ $connection = mysqli_connect('localhost', 'root', '', 'ip_project');
     
     if($connection) {
     
-    echo "Connection successful";
+    header("Location: ContactUs_Submit.html");
     
     } else {
     
