@@ -1,8 +1,9 @@
 <?php
-   
 
-   $connection = mysqli_connect('localhost', 'root', '', 'loginapp');  
-    if(!$connection) {
-        die("Database connection failed");
-    }
+$con = mysqli_connect("localhost","root","","folder");
+// Check connection
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
 ?>
