@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("localhost","root","","folder");
+$con = mysqli_connect("localhost","root","","ipproj");
 // Check connection
 if (mysqli_connect_errno())
   {
