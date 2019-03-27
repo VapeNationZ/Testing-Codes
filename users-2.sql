@@ -43,8 +43,17 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `email`, `password`, `trn_date`, `token`, `tokenExpire`) VALUES
-(1, 'test7',  'ash.rayquazarocks@gmail.com', 'b04083e53e242626595e2b8ea327e525', '2018-10-25 07:54:12', '5k2xdanmfj', '2018-10-25');
+INSERT INTO `users` (`id`, `username`, `rno`, `email`, `password`, `trn_date`, `token`, `tokenExpire`) VALUES
+(12, '4', 501688, 'joslynpereira777@gmail.com', 'a87ff679a2f3e71d9181a67b7542122c', '2018-10-19 02:57:36', 'hdq2u0vet1', '2018-10-24'),
+(13, 'test1', 501677, 'test@gmail.com', '5a105e8b9d40e1329780d62ea2265d8a', '2018-10-19 02:58:15', '', '0000-00-00'),
+(14, 'test2', 501600, 'test2@gmail.com', 'ad0234829205b9033196ba818f7a872b', '2018-10-19 03:05:15', '', '0000-00-00'),
+(15, 'test3', 501666, 'test3@gmail.com', '8ad8757baa8564dc136c1e07507f4a98', '2018-10-19 03:07:16', '', '0000-00-00'),
+(16, '1', 501690, 'joslynpereira777@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', '2018-10-19 17:26:02', 'hdq2u0vet1', '2018-10-24'),
+(17, 'test0', 501680, 'joslynpereira777@gmail.com', 'f6f4061a1bddc1c04d8109b39f581270', '2018-10-19 17:26:50', 'hdq2u0vet1', '2018-10-24'),
+(18, 'testuser', 501648, 'ash.rayquazarocks@gmail.com', '', '2018-10-24 01:23:32', '5k2xdanmfj', '2018-10-25'),
+(19, 'testf', 501659, 'ash.rayquazarocks@gmail.com', '49c5139efbcf069a68e8e24a9a694a14', '2018-10-24 15:15:18', '5k2xdanmfj', '2018-10-25'),
+(20, 'test3', 501678, 'ash.rayquazarocks@gmail.com', '8ad8757baa8564dc136c1e07507f4a98', '2018-10-24 15:20:28', '5k2xdanmfj', '2018-10-25'),
+(21, 'test7', 501616, 'ash.rayquazarocks@gmail.com', 'b04083e53e242626595e2b8ea327e525', '2018-10-25 07:54:12', '5k2xdanmfj', '2018-10-25');
 
 --
 -- Indexes for dumped tables
